@@ -17,7 +17,8 @@ namespace Assets._Scripts.Utilities
         /// </summary>
         public enum OccupiedState
         {
-            empty = 0,
+            unassigned = 0,
+            empty,
             playerFilled,
             enemyFilled
         }
@@ -29,10 +30,9 @@ namespace Assets._Scripts.Utilities
         /// </summary>
         public enum TilePassability
         {
-            empty = 0,
+            unassigned = 0,
+            empty,
             door,
-            stairs,
-            water,
             impassable
         }
     }

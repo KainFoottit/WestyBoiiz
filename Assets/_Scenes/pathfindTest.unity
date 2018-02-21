@@ -162,7 +162,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 321327458}
-  - component: {fileID: 321327459}
   m_Layer: 0
   m_Name: APP_MANAGER
   m_TagString: Untagged
@@ -183,18 +182,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &321327459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 321327457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c8c1a1f3478a004bbcdb2bae942bf68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tileContainer: {fileID: 11400000, guid: 1f3abe105954f3842962fdec94c33313, type: 2}
 --- !u!1001 &958983880
 Prefab:
   m_ObjectHideFlags: 0
@@ -259,15 +246,15 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1311601267}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6df12c33c8fd154cb4c005fd719f031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _tileContainer: {fileID: 11400000, guid: 1f3abe105954f3842962fdec94c33313, type: 2}
+  _tileContainer: {fileID: 0}
   _tileData:
-    key: 6
-    tileOverhead: {fileID: 1311601267}
+    key: 0
+    tileOverhead: {fileID: 0}
     xPos: 0
     zPos: 0
     occupiedState: 0
